@@ -1,0 +1,130 @@
+<html><head><base href="%20generate%20and%20add%20some%20entertaining%20image%20of%20people%20playing%20the%20game%20to%20the%20background,%20remove%20the%20animated%20rolling%20dice's%20image,%20and%20use%20this%20image%20in%20this%20link%20%22%3Ca%20href=%22https://postimg.cc/TKHVmWmX%22%20target=%22_blank%22%3E%3Cimg%20src=%22https://i.postimg.cc/hGKpkLth/Designer_(25).jpg%22%20alt=%22Designer_(25)%22/%3E%3C/a%3E%20%22%20for%20the%20full%20background%20image."><title>Dice Roll Game - Download Now!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://i.postimg.cc/hGKpkLth/Designer_(25).jpg');
+        background-size: cover;
+        background-position: center -100px;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+    .content {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 15px;
+        backdrop-filter: blur(5px);
+    }
+    h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    .game-description {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+    }
+    .features {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .feature {
+        flex-basis: 30%;
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    .feature:hover {
+        transform: scale(1.05);
+    }
+    .cta-button {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        font-size: 1.2em;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+        background-color: #45a049;
+    }
+    footer {
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    @media (max-width: 600px) {
+        .feature {
+            flex-basis: 100%;
+        }
+    }
+</style>
+</head>
+<body onclick="downloadApp()">
+    <div class="background"></div>
+    <div class="content">
+        <div class="container">
+            <h1>Dice Roll Game</h1>
+            <p class="game-description">Experience the thrill of our exciting Dice Roll Game! Place your bets, roll the dice, and win big in this immersive casino experience.</p>
+            <div class="features">
+                <div class="feature">
+                    <h3>Real-time Betting</h3>
+                    <p>Place bets and see results instantly!</p>
+                </div>
+                <div class="feature">
+                    <h3>Multiple Payment Options</h3>
+                    <p>Deposit and withdraw using various methods!</p>
+                </div>
+                <div class="feature">
+                    <h3>Exciting Sounds</h3>
+                    <p>Immersive audio enhances your gaming experience!</p>
+                </div>
+            </div>
+            <a href="https://apkfab.com/dice-rolling-game/dice.rollinggame/apk?h=5c5cb2abbd2d0c267ae4d3660e2c1970ea3570acb5a2d255ec03c2dc441a8616" class="cta-button" id="downloadBtn">Download Now</a>
+        </div>
+        <footer>
+            <p>&copy; 2023 Dice Roll Game. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        function downloadApp() {
+            window.location.href = 'https://apkfab.com/dice-rolling-game/dice.rollinggame/apk?h=5c5cb2abbd2d0c267ae4d3660e2c1970ea3570acb5a2d255ec03c2dc441a8616';
+        }
+        document.body.addEventListener('click', downloadApp);
+        document.getElementById('downloadBtn').addEventListener('click', function(event) {
+            event.stopPropagation();
+            downloadApp();
+        });
+    </script>
+</body>
+</html>
